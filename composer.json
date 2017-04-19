@@ -13,7 +13,8 @@
         "laravel/framework": "5.3.*",
         "league/flysystem-aws-s3-v3": "~1.0",
         "stripe/stripe-php": "^4.7",
-        "uxweb/sweet-alert": "^1.4"
+        "uxweb/sweet-alert": "^1.4",
+        "ext-gd": "*",
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
