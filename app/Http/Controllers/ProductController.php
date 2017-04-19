@@ -33,7 +33,7 @@ class ProductController extends Controller
         $cart->add($product, $product->id);
     	$request->session()->put('cart', $cart);
 
-        alert()->success("<h5>Danke schön! <br>-<br> Muchas gracias!</h5>", "<h4>You are awesome!</h4>")->html()->persistent("OK");
+        alert()->success("<h5>Danke schön! <br>-<br> Muchas gracias!</h5>", "<h4><strong>You are awesome!</strong></h4>")->html()->persistent("OK");
         return redirect()->route('product.index')->with("success", "{$product->title}");                
     }
 
@@ -129,7 +129,7 @@ class ProductController extends Controller
         }
         Session::forget('cart');
 
-        alert()->success('Deine Produkte werden zu dir nach Hause geschickt. Vielen Dank! <br>-<br> Tus productos serán enviados a tu casa. Muchas gracias!', 'Bestellung - Pedido')->html()->persistent("Super Fiesta");
+        alert()->success('<h6>Deine Produkte werden zu dir nach Hause geschickt. Vielen Dank! <br>-<br> Tus productos serán enviados a tu casa. Muchas gracias!</h6>', '<h4><strong>Bestellung - Pedido</strong></h4>')->html()->persistent("Super Fiesta");
         return redirect()->route('product.index')->with('success', 'Bestellung - Pedido');
     }
 
@@ -175,7 +175,7 @@ class ProductController extends Controller
         }
         Session::forget('cart');
 
-        alert()->success('Du kannst deine gewünschten Produkten gemäss unserer Öffnungszeiten abholen. Vielen Dank! <br>-<br> Puedes recoger tus productos deseados según nuestros horarios de atención. Muchas gracias!', 'Bestellung - Pedido')->html()->persistent("Super Fiesta");
+        alert()->success('<h6>Du kannst deine gewünschten Produkten gemäss unserer Öffnungszeiten abholen. Vielen Dank! <br>-<br> Puedes recoger tus productos deseados según nuestros horarios de atención. Muchas gracias!</h6>', '<h4><strong>Bestellung - Pedido</strong></h4>')->html()->persistent("Super Fiesta");
         return redirect()->route('product.index')->with('success', 'Bestellung - Pedido');
     }
 
@@ -216,7 +216,7 @@ class ProductController extends Controller
         }
         Session::forget('cart');
 
-        alert()->success('<h5>Wir schicken dir eine Rechnung. Nach Bezahlung schicken wir deine Produkte. Vielen Dank! <br>-<br> Te enviaremos un recibo por Post. Luego de tu pago te enviaremos tus productos. Muchas gracias!</h5>', 'Bestellung - Pedido')->html()->persistent("Super Fiesta");
+        alert()->success('<h6>Wir schicken dir eine Rechnung. Nach Bezahlung schicken wir deine Produkte. Vielen Dank! <br>-<br> Te enviaremos un recibo por Post. Luego de tu pago te enviaremos tus productos. Muchas gracias!</h6>', '<h4><strong>Bestellung - Pedido</strong></h4>')->html()->persistent("Super Fiesta");
         return redirect()->route('product.index')->with('success', 'Bestellung - Pedido');
     }
 
@@ -255,7 +255,7 @@ class ProductController extends Controller
         }
         Session::forget('cart');
 
-        alert()->success('Wir schicken dir eine Rechnung per Post. Nach Bezahlung kannst du deine Produkte gemäss unserer Öffnungszeiten abholen. Du kannst auch im Bar bezahlen. Vielen Dank! <br>-<br> Te enviaremos un recibo por Post. Luego de tu pago puedes recoger tus productos según nuestro horario de atención. Puedes pagar en efectivo. Muchas gracias! ', 'Bestellung - Pedido')->html()->persistent("Super Fiesta");
+        alert()->success('<h6>Wir schicken dir eine Rechnung per Post. Nach Bezahlung kannst du deine Produkte gemäss unserer Öffnungszeiten abholen. Du kannst auch im Bar bezahlen. Vielen Dank! <br>-<br> Te enviaremos un recibo por Post. Luego de tu pago puedes recoger tus productos según nuestro horario de atención. Puedes pagar en efectivo. Muchas gracias!</h6>', '<h4><strong>Bestellung - Pedido</strong></h4>')->html()->persistent("Super Fiesta");
         return redirect()->route('product.index')->with('success', 'Bestellung - Pedido');
     }
 
