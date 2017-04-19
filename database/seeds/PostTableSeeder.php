@@ -63,7 +63,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -111,7 +111,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -159,7 +159,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-
+            'live' => 1,
         ]);
         $post->save();
                $post = new \App\Models\Post([
@@ -261,7 +261,7 @@ http://www.ponletuselloalavida.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -363,7 +363,7 @@ http://cafeaguilaroja.com
             'descrc' => 'Café Aguila Roja',
             'imgd' => 'https://ucarecdn.com/17c990cd-5f31-456a-bfb2-e08e313f5e60/2.png',
             'descrd' => 'Café Aguila Roja',
-
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -411,7 +411,7 @@ http://www.ambev.com.br
             'descrc' => 'Guaraná Antártica',
             'imgd' => 'https://ucarecdn.com/dc5b250d-281d-47ff-8eb4-97634c85ea10/2.png',
             'descrd' => 'Guaraná Antártica',
-
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -459,7 +459,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-
+            'live' => 1,
         ]);
         $post->save();         
         $post = new \App\Models\Post([
@@ -508,7 +508,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -556,7 +556,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-
+            'live' => 1,
         ]);
         $post->save();                
         $post = new \App\Models\Post([
@@ -604,7 +604,7 @@ http://www.jarritos.mx
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-
+            'live' => 1,
         ]);
         $post->save();       
         $post = new \App\Models\Post([
@@ -652,7 +652,7 @@ http://www.jarritos.mx
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -700,7 +700,7 @@ http://www.jarritos.mx
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();       
         $post = new \App\Models\Post([
@@ -749,7 +749,7 @@ http://www.jarritos.mx
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -815,7 +815,7 @@ http://www.pajarito.com.py
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();                                                                     
         $post = new \App\Models\Post([
@@ -881,7 +881,7 @@ http://www.yerbacampesino.com.py
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();               
         $post = new \App\Models\Post([
@@ -947,7 +947,7 @@ http://www.yerbacampesino.com.py
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -1013,7 +1013,7 @@ http://www.yerbacampesino.com.py
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();   
         $post = new \App\Models\Post([
@@ -1079,7 +1079,7 @@ http://www.santamargarita.com.py
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -1147,7 +1147,7 @@ http://www.santamargarita.com.py
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -1195,7 +1195,7 @@ https://www.ponymalta.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -1249,7 +1249,7 @@ http://www.wikipedia.org
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,            
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -1303,7 +1303,7 @@ http://www.wikipedia.org
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+             'live' => 1,           
         ]);
         $post->save();       
         $post = new \App\Models\Post([
@@ -1357,7 +1357,7 @@ http://www.wikipedia.org
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -1405,7 +1405,7 @@ https://chocolates.com.co
             'descrc' => 'Chocolate Corona',
             'imgd' => 'https://ucarecdn.com/0a1b7e42-63da-412b-aa86-3ec5dc05b311/2.png',
             'descrd' => 'Chocolate Corona',
-            
+             'live' => 1,           
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -1472,7 +1472,7 @@ http://www.wikipedia.org
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,          
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -1532,7 +1532,7 @@ http://www.elrey.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -1580,7 +1580,7 @@ http://www.fruco.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();    
         $post = new \App\Models\Post([
@@ -1628,7 +1628,7 @@ https://www.noel.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -1676,7 +1676,7 @@ https://www.noel.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -1724,7 +1724,7 @@ https://www.noel.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();    
         $post = new \App\Models\Post([
@@ -1772,7 +1772,7 @@ https://www.noel.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();   
         $post = new \App\Models\Post([
@@ -1820,7 +1820,7 @@ https://www.noel.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();   
         $post = new \App\Models\Post([
@@ -1868,7 +1868,7 @@ https://www.goyanativo.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -1916,7 +1916,7 @@ https://www.goyanativo.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -1964,7 +1964,7 @@ https://www.goyanativo.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -2012,7 +2012,7 @@ https://www.goyanativo.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -2061,7 +2061,7 @@ https://www.noel.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -2109,7 +2109,7 @@ http://www.laniña.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();     
         $post = new \App\Models\Post([
@@ -2157,7 +2157,7 @@ http://www.fritolay.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -2205,7 +2205,7 @@ https://www.wikipedia.org
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -2253,7 +2253,7 @@ www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -2301,7 +2301,7 @@ www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -2349,7 +2349,7 @@ www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -2397,7 +2397,7 @@ www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -2445,7 +2445,7 @@ www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();                          
         $post = new \App\Models\Post([
@@ -2493,7 +2493,7 @@ www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -2541,7 +2541,7 @@ www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();      
         $post = new \App\Models\Post([
@@ -2589,7 +2589,7 @@ http://www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -2637,7 +2637,7 @@ http://www.super.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -2685,7 +2685,7 @@ http://www.super.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();         
         $post = new \App\Models\Post([
@@ -2733,7 +2733,7 @@ http://www.aldoronline.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();     
         $post = new \App\Models\Post([
@@ -2795,7 +2795,7 @@ http://www.dulcedelechemardel.com
             'descrc' => 'Dulce de Leche Mardel',
             'imgd' => 'https://ucarecdn.com/c3ecca17-8366-404c-b904-faa49063ccbe/2.png',
             'descrd' => 'Dulce de Leche Mardel',
-            
+            'live' => 1,
         ]);
         $post->save();       
         $post = new \App\Models\Post([
@@ -2844,7 +2844,7 @@ www.colombina.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();   
         $post = new \App\Models\Post([
@@ -2892,7 +2892,7 @@ https://chocolates.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -2940,7 +2940,7 @@ http://www.super.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -3000,7 +3000,7 @@ http://www.cervezaaguila.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();
         $post = new \App\Models\Post([
@@ -3060,7 +3060,7 @@ https://www.cervezapoker.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();      
         $post = new \App\Models\Post([
@@ -3120,7 +3120,7 @@ https://www.colaypola.com.co
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();          
         $post = new \App\Models\Post([
@@ -3174,7 +3174,7 @@ http://www.quilmes.com.ar
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();  
         $post = new \App\Models\Post([
@@ -3228,7 +3228,7 @@ https://www.cbn.bo
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();   
         $post = new \App\Models\Post([
@@ -3282,7 +3282,7 @@ https://www.cusquena.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();     
         $post = new \App\Models\Post([
@@ -3330,7 +3330,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save(); 
         $post = new \App\Models\Post([
@@ -3378,7 +3378,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();     
         $post = new \App\Models\Post([
@@ -3432,7 +3432,7 @@ http://www.postobon.com
             'descrc' => 'Gaseosa 2L',
             'imgd' => 'http://www.mrwallpaper.com/wallpapers/Fire-Ice-Fist-1280x720.jpg',
             'descrd' => 'Refajo',
-            
+            'live' => 1,
         ]);
         $post->save();                                                                                                                                                                                            
         

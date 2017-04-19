@@ -21,6 +21,7 @@ class ProductTableSeeder extends Seeder
             'price' => 1.75,
             'offer' => 8,
             'slug' => 'Colombiana300mL',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -33,6 +34,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 250,
             'offer' => 15,
             'slug' => 'Manzana300mL',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -45,6 +47,7 @@ class ProductTableSeeder extends Seeder
             'price' => 12,
             'offer' => 9,
             'slug' => 'Uva300mL',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -57,6 +60,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CafeSelloRojo',
+            'live' => 1,
         ]);
         $product->save();     
         $product = new \App\Models\Product([
@@ -69,6 +73,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CafeAguilaRoja',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -81,6 +86,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 250,
             'offer' => 25,
             'slug' => 'Guarana',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -93,6 +99,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'JugoHitLulo',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -104,7 +111,8 @@ class ProductTableSeeder extends Seeder
             'price' => 6.99,
             'weight' => 125,
             'offer' => 27,
-            'slug' => 'JugoHitMango'
+            'slug' => 'JugoHitMango',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -117,6 +125,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'JugoHitMora',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -129,6 +138,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'JarritoGuayaba',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -141,6 +151,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'JarritoNaranja',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -153,6 +164,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'JarritoMandarina',
+            'live' => 1,
         ]);
         $product->save();    
         $product = new \App\Models\Product([
@@ -165,6 +177,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'JarritoLima',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -177,6 +190,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Pajarito',
+            'live' => 1,
         ]);
         $product->save();   
         $product = new \App\Models\Product([
@@ -189,6 +203,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CampesinoClasica',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -201,6 +216,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CampesinoTradicional',
+            'live' => 1,
         ]);
         $product->save();           
         $product = new \App\Models\Product([
@@ -213,6 +229,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CampesinoAnis',
+            'live' => 1,
         ]);
         $product->save();    
         $product = new \App\Models\Product([
@@ -225,6 +242,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'KurupiFitness',
+            'live' => 1,
         ]);
         $product->save();                
         $product = new \App\Models\Product([
@@ -237,6 +255,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'KurupiClasica',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -249,6 +268,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'PonyMalta',
+            'live' => 1,
         ]);
         $product->save();                             
         $product = new \App\Models\Product([
@@ -261,6 +281,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'HarinaPanAmarilla',
+            'live' => 1,
         ]);
         $product->save();   
         $product = new \App\Models\Product([
@@ -273,6 +294,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'HarinaTamal',
+            'live' => 1,
         ]);
         $product->save();      
         $product = new \App\Models\Product([
@@ -285,6 +307,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'MermeladaPaclan',
+            'live' => 1,
         ]);
         $product->save();    
         $product = new \App\Models\Product([
@@ -297,6 +320,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'ChocolateCorona',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -309,6 +333,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Panela',
+            'live' => 1,
         ]);
         $product->save();    
         $product = new \App\Models\Product([
@@ -321,6 +346,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'AjiElRey',
+            'live' => 1,
         ]);
         $product->save();    
         $product = new \App\Models\Product([
@@ -333,6 +359,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'SalsaTomateFruco',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -345,6 +372,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'FestivalSurtido',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -357,6 +385,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'FestivalFresa',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -369,6 +398,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'FestivalChocolate',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -381,6 +411,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'FestivalVainilla',
+            'live' => 1,
         ]);
         $product->save();         
         $product = new \App\Models\Product([
@@ -393,6 +424,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'FestivalLimon',
+            'live' => 1,
         ]);
         $product->save();   
         $product = new \App\Models\Product([
@@ -405,6 +437,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'MangoWaffer',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -417,6 +450,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'GuayabaWaffer',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -429,6 +463,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'VanillaWaffer',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -441,6 +476,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CocoWaffer',
+            'live' => 1,
         ]);
         $product->save();                
         $product = new \App\Models\Product([
@@ -453,6 +489,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Ducales',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -465,6 +502,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Trocitos',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -477,6 +515,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Choclitos',
+            'live' => 1,
         ]);
         $product->save();    
         $product = new \App\Models\Product([
@@ -489,6 +528,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Obleas',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -501,6 +541,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BomBomBumFresaSingle',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -513,6 +554,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BonBonBumFresa',
+            'live' => 1,
         ]);
         $product->save();      
         $product = new \App\Models\Product([
@@ -525,6 +567,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BonBonBumMandarine',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -537,6 +580,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BomBomBumFressaIntensa',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -549,6 +593,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BomBomBumApple',
+            'live' => 1,
         ]);
         $product->save();                 
         $product = new \App\Models\Product([
@@ -561,6 +606,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BonBonBumSurtidoSingle',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -573,6 +619,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BonBonBumSurtido',
+            'live' => 1,
         ]);
         $product->save();   
         $product = new \App\Models\Product([
@@ -585,6 +632,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CoffeDelight',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -597,6 +645,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BombonSupercocoSingle',
+            'live' => 1,
         ]);
         $product->save();
         $product = new \App\Models\Product([
@@ -609,6 +658,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'BombonSupercoco',
+            'live' => 1,
         ]);
         $product->save();   
         $product = new \App\Models\Product([
@@ -621,6 +671,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Frunas',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -633,6 +684,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'DulceDeLeche',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -645,6 +697,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Nucita',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -657,6 +710,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'ChocolatinaJet',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -669,6 +723,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Barrilete',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -681,6 +736,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CervezaAguila',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -693,6 +749,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CervezaPoker',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -705,6 +762,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'ColayPola',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -717,6 +775,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CervezaQuilmes',
+            'live' => 1,
         ]);
         $product->save();    
         $product = new \App\Models\Product([
@@ -729,6 +788,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CervezaPacena',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -741,6 +801,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'CervezaCusquenaRubia',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -753,6 +814,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Uva2L',
+            'live' => 1,
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -765,6 +827,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Manzana2L',
+            'live' => 1,
         ]);
         $product->save();  
         $product = new \App\Models\Product([
@@ -777,6 +840,7 @@ class ProductTableSeeder extends Seeder
             'weight' => 3125,
             'offer' => 36,
             'slug' => 'Colombiana2L',
+            'live' => 1,
         ]);
         $product->save();                                                          
     }
