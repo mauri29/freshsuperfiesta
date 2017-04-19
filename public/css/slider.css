@@ -1,0 +1,29 @@
+.carousel .item{
+    background-image: url(http://www.webhostingreviewslist.com/wp-content/uploads/2013/04/Subtle-Light-Tile-Pattern-Vol5-1.jpg);
+    background-repeat: repeat; 
+}
+.carousel-caption {
+    padding: 0px;
+
+}
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+.slide-content {
+    color:white;
+}
+.slide-content p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.slide-content a {
+    margin-top: 10px;
+}
+.slide-wrapper {
+    margin-top: 5%;
+}
+.slide-image .thumbnail img {
+    max-height: 200px;
+}
