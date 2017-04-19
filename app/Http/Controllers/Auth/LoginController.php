@@ -55,7 +55,7 @@ class LoginController extends Controller
 
     protected function authenticated(Request $request, $user)
     {
-        alert()->error("<h5>Hallo! <br>-<br> Hola, ¿como estás?</h5>", "<h3><strong>{$user->name}</strong></h3>")->html()->persistent("OK");
+        alert()->success("<h5>Hallo, wir geht es dir? <br>-<br> Hola, ¿como estás?</h5>", "<h3><strong>{$user->name}</strong></h3>")->html()->autoclose(3000);
     }
 
     public function logout(Request $request)
