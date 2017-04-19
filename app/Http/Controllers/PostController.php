@@ -10,7 +10,6 @@ class PostController extends Controller
 {
     public function show(Post $post)
     {
-    	alert()->info("Preis/Precio: {$post->price}.- CHF/u <br>-<br> Gewicht/Peso: {$post->weight} kg/u", "{$post->title}")->html()->persistent("OK");
     	return view('post.post')->with([
     		'post' => $post,
     	]);
