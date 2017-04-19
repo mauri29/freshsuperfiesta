@@ -37,4 +37,26 @@ class LoginController extends Controller
     {
         $this->middleware('guest', ['except' => 'logout']);
     }
+
+    protected function sendFailedLoginResponse(Request $request)
+    {
+        alert()->error("<h6>Etwas war falsh <br>-<br> Hubo algún error</h6>", "<h4><strong>Upps</strong></h4>")->html()->persistent("OK");
+        return redirect()->back()
+            ->withInput($request->only($this->username(), 'remember'))
+            ->withErrors([
+                $this->username() => Lang::get('auth.failed'),
+            ])->with('error', 'Failed login in');
+    }
+
+    public function logout(Request $request)
+    {
+        $this->guard()->logout();
+
+        $request->session()->flush();
+
+        $request->session()->regenerate();
+
+        alert()->success("<h6>Hab einen schönen Tag! <br>-<br> Ten un lindo dia!</h6>", "<h4><strong>Bye!</strong></h4>")->html()->autoclose(3000);;
+        return redirect('/')->with('success', 'Danke für deinen Besuch - Gracias por tu visita');
+    }
 }
