@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Lang;
@@ -50,6 +51,11 @@ class LoginController extends Controller
             ->withErrors([
                 $this->username() => Lang::get('auth.failed'),
             ])->with('error', 'Etwas war falsch - Hubo algún error');
+    }
+
+    protected function authenticated(Request $request, $user)
+    {
+        alert()->error("<h5>Hallo! <br>-<br> Hola, ¿como estás?</h5>", "<h3><strong>{$user->name}</strong></h3>")->html()->persistent("OK");
     }
 
     public function logout(Request $request)

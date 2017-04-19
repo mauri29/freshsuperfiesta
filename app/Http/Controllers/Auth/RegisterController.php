@@ -76,4 +76,10 @@ class RegisterController extends Controller
         ]);
         return $user;
     }
+
+    protected function registered(Request $request, $user)
+    {
+        alert()->success("<h5>Willkommen bei Super Fiesta <br>-<br>Bienvenido a Super Fiesta</h5>", "<h4><strong>{$user->name}</strong></h4>")->html()->persistent("Super Fiesta");
+        return redirect()->route('product.index');  
+    }
 }
