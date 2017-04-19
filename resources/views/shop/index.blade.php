@@ -28,7 +28,7 @@
                                             <img src="{{ $product->imagePath }}" class="img-reponsive" alt="...">
                                             <div class="caption">
                                                 <h5><span class="label label-primary pull-right price">{{ $product->price }}.- CHF</span></h5><br>
-                                                <h5 class="pull-left producttt"> {{ $product->title }}</h5><br><br>
+                                                <strong><div class="pull-left producttt"> {{ $product->title }}</div></strong><br>
                                                 <h6 class="teaserde"> {!! $product->teaserde !!}</h6>
                                                 <h6 class="teaseres"> {!! $product->teaseres !!}</h6>
                                                 <div class="clearfix">
