@@ -33,7 +33,7 @@ class ProductController extends Controller
         $cart->add($product, $product->id);
     	$request->session()->put('cart', $cart);
 
-        alert()->success("Danke schön! <br>-<br> Muchas gracias!", "You are awesome!")->html()->persistent("OK");
+        alert()->success("<h5>Danke schön! <br>-<br> Muchas gracias!</h5>", "<h4>You are awesome!</h4>")->html()->persistent("OK");
         return redirect()->route('product.index')->with("success", "{$product->title}");                
     }
 
@@ -216,7 +216,7 @@ class ProductController extends Controller
         }
         Session::forget('cart');
 
-        alert()->success('<h5>Wir schicken dir eine Rechnung per Post. Nach Bezahlung schicken wir deine Produkte. Vielen Dank! <br>-<br> Te enviaremos un recibo por Post. Luego de tu pago te enviaremos tus productos. Muchas gracias!</h5>', 'Bestellung - Pedido')->html()->persistent("Super Fiesta");
+        alert()->success('<h5>Wir schicken dir eine Rechnung. Nach Bezahlung schicken wir deine Produkte. Vielen Dank! <br>-<br> Te enviaremos un recibo por Post. Luego de tu pago te enviaremos tus productos. Muchas gracias!</h5>', 'Bestellung - Pedido')->html()->persistent("Super Fiesta");
         return redirect()->route('product.index')->with('success', 'Bestellung - Pedido');
     }
 
