@@ -216,7 +216,7 @@ class ProductController extends Controller
         }
         Session::forget('cart');
 
-        alert()->success('Wir schicken dir eine Rechnung per Post. Nach Bezahlung schicken wir deine Produkte. Vielen Dank! <br>-<br> Te enviaremos un recibo por Post. Luego de tu pago te enviaremos tus productos. Muchas gracias!', 'Bestellung - Pedido')->html()->persistent("Super Fiesta");
+        alert()->success('<h5>Wir schicken dir eine Rechnung per Post. Nach Bezahlung schicken wir deine Produkte. Vielen Dank! <br>-<br> Te enviaremos un recibo por Post. Luego de tu pago te enviaremos tus productos. Muchas gracias!</h5>', 'Bestellung - Pedido')->html()->persistent("Super Fiesta");
         return redirect()->route('product.index')->with('success', 'Bestellung - Pedido');
     }
 
