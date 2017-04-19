@@ -60,7 +60,7 @@ class LoginController extends Controller
 
         $request->session()->regenerate();
 
-        alert()->success("<h5>Hab einen schönen Tag! <br>-<br> Ten un lindo dia!</h5>", "<h3><strong>Bye!</strong></h3>")->html()->autoclose(3000);;
+        alert()->success("<h5>Hab einen schönen Tag! <br>-<br> Ten un lindo dia!</h5>", "<h3><strong>Bye! {$user->name} </strong></h3>")->html()->autoclose(3000);;
         return redirect('/')->with('success', 'Danke für deinen Besuch - Gracias por tu visita');
     }
 }
