@@ -1,4 +1,10 @@
 <?php
+//QUEUES
+
+Route::get('/queues', function(){
+	dispatch(new App\Jobs\LogSomething);
+});
+
 
 //ALERT
 Route::get('/alert', function(){
