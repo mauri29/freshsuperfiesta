@@ -14,7 +14,7 @@
         "league/flysystem-aws-s3-v3": "~1.0",
         "stripe/stripe-php": "^4.7",
         "uxweb/sweet-alert": "^1.4",
-        "ext-gd": "*",
+        "ext-gd": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
