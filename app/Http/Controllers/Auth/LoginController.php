@@ -44,12 +44,12 @@ class LoginController extends Controller
 
     protected function sendFailedLoginResponse(Request $request)
     {
-        alert()->error("<h6>Etwas war falsh <br>-<br> Hubo algún error</h6>", "<h4><strong>Upps</strong></h4>")->html()->persistent("OK");
+        alert()->error("<h5>Etwas war falsh <br>-<br> Hubo algún error</h5>", "<h3><strong>Upps</strong></h3>")->html()->persistent("OK");
         return redirect()->back()
             ->withInput($request->only($this->username(), 'remember'))
             ->withErrors([
                 $this->username() => Lang::get('auth.failed'),
-            ])->with('error', 'Failed login in');
+            ])->with('error', 'Etwas war falsch - Hubo algún error');
     }
 
     public function logout(Request $request)
