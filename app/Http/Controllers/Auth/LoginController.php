@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    alert()->success("Wie geht es dir? <br>-<br> Como estás?", "{$user->name}")->html()->persistent("Super Fiesta");
+
     protected $redirectTo = '/';
 
     /**
