@@ -14,11 +14,6 @@
                         {{ csrf_field() }}
                     </form> 
                 </div>
-                @if (count($errors) > 0)
-                    <script type="text/javascript">alert()->success("Wie geht es dir? <br>-<br> Como estás?", "{$user->name}")->html()->persistent("Super Fiesta");
-                    </script>
-                @endif
-
                 <div class="panel-body">
                 <center><img src="https://ucarecdn.com/34134a26-904f-46dd-b2cb-0763c33847e0/LogotipoFinal.png" width="80"/> </center>
                 <center><h6>{{ trans('login.obligator') }}</h6></center><br>

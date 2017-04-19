@@ -21,8 +21,9 @@
                                     <p>{!! trans('contact.main') !!}</p>
                                     <p>{!! trans('contact.conclusion') !!}</p>
                                     <p>{!! trans('contact.motto') !!}</p> 
-                                    <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('contact.product') }}</a></center>
+                                    
                             </div>
+                            <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger">{{ trans('contact.product') }}</a></center>
                         </div>
                     </div>
                 </div>

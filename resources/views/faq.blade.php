@@ -19,7 +19,7 @@
                         <p>{{ trans('faq.main') }}</p>
                         <p>{{ trans('faq.conclusion') }}</p>
                         <p>{{ trans('faq.motto') }}</p>  
-                        <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('faq.product') }}</a></center>
+                        <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger">{{ trans('faq.product') }}</a></center>
                     </div>
                 </div>
             </div>

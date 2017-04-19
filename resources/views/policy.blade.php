@@ -22,9 +22,10 @@
                                     <p>{!! trans('privacy.main') !!}</p>
                                     <p>{!! trans('privacy.conclusion') !!}</p>
                                     <p>{!! trans('privacy.motto') !!}</p>  
-                                    <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('privacy.product') }}</a></center>
+                                    
                                 
                             </div>
+                            <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger">{{ trans('privacy.product') }}</a></center>
                         </div>
                     </div>
                 </div>

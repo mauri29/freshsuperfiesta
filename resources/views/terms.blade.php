@@ -19,8 +19,9 @@
                             <div class="col-sm-10 col-md-10 col-md-offset-1 col-sm-offset-1">
                                 <p>{!! trans('terms.intro') !!}</p>
                                 <p>{!! trans('terms.main') !!}</p>
-                                <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('terms.product') }}</a></center>
+                                
                             </div>
+                            <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger">{{ trans('terms.product') }}</a></center>
                         </div>
                     </div>
                 </div>

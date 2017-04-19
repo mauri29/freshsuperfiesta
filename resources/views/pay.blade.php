@@ -22,9 +22,10 @@
                                 <p>{!! trans('pay.main') !!}</p>
                                 <p>{!! trans('pay.conclusion') !!}</p>
                                 <p>{!! trans('pay.motto') !!}</p>  
-                                <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('pay.product') }}</a></center>
+                                
 
                             </div>
+                            <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger">{{ trans('pay.product') }}</a></center>
                         </div>
                     </div>
                 </div>
