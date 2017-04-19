@@ -378,7 +378,7 @@ class TaggablesTableSeeder extends Seeder
         ]);
         $taggables->save(); 
        $taggables = new \App\Models\Taggable([
-            'tag_id' => '7',
+            'tag_id' => '1',
             'taggable_id' => '61',
             'taggable_type' => 'App\Models\Post',
         ]);
@@ -395,7 +395,12 @@ class TaggablesTableSeeder extends Seeder
             'taggable_type' => 'App\Models\Post',
         ]);
         $taggables->save();
-
+       $taggables = new \App\Models\Taggable([
+            'tag_id' => '7',
+            'taggable_id' => '64',
+            'taggable_type' => 'App\Models\Post',
+        ]);
+        $taggables->save();
     }
 }
 
