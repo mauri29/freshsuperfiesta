@@ -1,5 +1,6 @@
 body {
     background: #F0F5FD;
+    font-family: "Raleway", serif;    
 }
 
 $('.carousel').carousel({
