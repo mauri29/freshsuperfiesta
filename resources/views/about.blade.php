@@ -22,7 +22,7 @@
                                 <p>{!! trans('about.main') !!}</p>
                                 <p>{!! trans('about.conclusion') !!}</p>
                                 <p>{!! trans('about.motto') !!}</p>                    
-                                <a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('about.product') }}</a>
+                                <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('about.product') }}</a></center>
                                 
                             </div>
                         </div>

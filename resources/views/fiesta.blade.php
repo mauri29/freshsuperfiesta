@@ -22,7 +22,7 @@
                                     <p>{!! trans('fiesta.main') !!}</p>
                                     <p>{!! trans('fiesta.conclusion') !!}</p>
                                     <p>{!! trans('fiesta.motto') !!}</p> 
-                                    <a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('contact.product') }}</a>
+                                    <center><a href="{{ route('product.index') }}" type="button" class="btn btn-danger pull-right">{{ trans('contact.product') }}</a></center>
                                 
                             </div>
                         </div>

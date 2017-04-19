@@ -19,7 +19,7 @@
                         <p>{{ trans('greetings.hello', array('username' => $username, 'weather' => $weather)) }}</p>
                         <!-- pluralize -->
                         <p>{{ Lang::choice('greetings.new', $newMessages , array('count' => $newMessages)) }}</p>
-                        <a href="{{ route('product.index') }}" type="button" class="btn btn-success pull-right">To the products</a>
+                        <center><a href="{{ route('product.index') }}" type="button" class="btn btn-success pull-right">To the products</a></center>
                     </div>
                 </div>
             </div>
