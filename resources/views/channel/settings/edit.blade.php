@@ -101,14 +101,7 @@
                                         @endif
                                     </div>
                                     <hr>
-                                    <center><div class="form-group">
-                                        
-                                        <label for="image">{{ trans('editc.bild') }} 
-                                        <h6>{!! trans('editc.imagenescargadas') !!}</h6>
-                                        <img src="{{ $channel->getImage() }}" class="media-object"></label>                                        
-                                        <input type="file" name="image" id="image">
-                                        <h6>{{ trans('editc.bilder') }}<br>{{ trans('editc.bilderchen') }}</h6>
-                                    </div></center>       
+                                           
 
                                     <center><button class="btn btn-success" type="submit">{{ trans('editc.update') }}</button></center>
 
