@@ -16,7 +16,7 @@ class SearchController extends Controller
     	if(!$query){
     		return redirect()->route('product.index');
     	}
-        $products = Product::where(DB::raw("CONCAT(title, ' ', country)"), 'LIKE', "%{$query}%")->get();
+        $products = Product::wherein(DB::raw("CONCAT(title, ' ', country)"), 'LIKE', "%{$query}%")->get();
         return view('search.results', ['products' => $products]);
     	//return view('search.results')->with('products', $products);
     }
