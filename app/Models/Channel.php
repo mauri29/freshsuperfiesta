@@ -37,7 +37,7 @@ class Channel extends Model
     public function getImage()
     {
         if(!$this->image_filename){
-            return config('sfiestach.buckets.images') . '/profile/' . 'avatar.png';
+            return config('sfiestach.buckets.images') . '/profile/' . 'avatarrr.png';
         }
         return config('sfiestach.buckets.images') . '/profile/' . $this->image_filename;
     }
