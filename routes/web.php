@@ -2,7 +2,7 @@
 //REDIS
 Route::get('/redis', function(){
 	$users = cache()->remember('users', 10, function(){
-		return ['alex']; 
+		return ['alex', 'billy']; 
 	});
 
 	dd($users);
